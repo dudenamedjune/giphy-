@@ -1,0 +1,22 @@
+body{
+	background-color: #FFDC7F;
+}
+
+
+#animalgifs{
+	float: left;
+    width: 60%;
+}
+#animal-form{
+	float: right;
+	margin-right: 4%;
+    margin-top: 4%;
+}
+.gif{
+	padding: 1%;
+}
+.animal{
+	width: 120px;
+	background-color: #D9FFD5;
+	border-radius: 10px;
+}
