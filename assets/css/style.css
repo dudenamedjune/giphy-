@@ -6,6 +6,7 @@ body{
 #animalgifs{
 	float: left;
     width: 60%;
+    margin-top: 2%;
 }
 #animal-form{
 	float: right;
@@ -16,7 +17,18 @@ body{
 	padding: 1%;
 }
 .animal{
-	width: 120px;
+	width: 13%;
 	background-color: #D9FFD5;
+	border-style: inset;
+	border-width: 4px;
 	border-radius: 10px;
+	margin: 5px;
+}
+.container{
+	margin: 4%;
+}
+img{
+	border-style: inset;
+	border-width: thin;
+	margin: 10px;
 }

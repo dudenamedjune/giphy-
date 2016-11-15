@@ -19,6 +19,8 @@ $(document).ready(function() {
 		//ajax xall to server of api
 		$.ajax({url: queryURL, method: 'GET'}).done(function(response) {
 
+			console.log(response);
+
 			//loop that creates 10 images of the array button clicked  
 			for (var i = 0; i< 11; i++){
 				//init img html tag in javascript wonderland
@@ -33,7 +35,7 @@ $(document).ready(function() {
 				.attr('src', response.data[i].images.fixed_height_still.url )
 				;
 				//append all of the javascript wonderland creation to html 
-				$("#animalgifs").append(img);
+				$("#animalgifs").append("<p>Rating: "+ response.data[i].rating + "</p>").append(img);
 				
 		};
 				
